@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    width: 800px;
+    height: 800px;
+    background: rgb(22, 124, 165);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 20px;
+}
+.boxs {
+    position: relative;
+    margin: 5px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+    border-radius: 20px;
+    width: calc(600px/3);
+    height: calc(600px/3);
+    background: rgb(26, 25, 25);
+}
